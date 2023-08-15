@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #1abc9c;
+    text-align: center;
+    padding: 40px 0;
+    transform: translateY(-20px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 span {
+    font-size: 1.2rem;
+}
+
+.header:hover {
+    transform: translateY(0);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateZ(0);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+
+.sourav {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: block;
+    border: 3px solid #1abc9c; 
+}
+
+.social {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    display: inline-block;
+    margin: 5px;
+    transition: transform 0.2s;
+}
+
+.social a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 0%;
+    transition: transform 0.2s;
+    margin: 0 auto 15px;
+    display: block;
+    
+}
+
+.social a:hover {
+    transform: scale(1.2);
+}
+
+.about-developers {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    transform: translateY(20px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-developers h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.developer {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.developer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.developer h3 {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin: 10px 0;
+}
+
+.developer p {
+    color: #777;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #34495e;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer a:hover {
+    color: #1abc9c;
+}
+
+.footer:hover {
+    transform: translateY(0);
+}
+
+    </style>
+    <title>About This Room Boys</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><span>🌟</span> Room No. 205</h1>
+        </header>
+        <main class="main">
+            <div class="card">
+                <!-- Card content for member 1 -->
+                <img class="sourav" src="image/sourav.jpg" alt="Member 1">
+                <h2>Sourav Chhimpa</h2>
+                <p>Computer Science (BCA)</p>
+                <p>AI and Data Science</p>
+                <p>About Me: Passionate about coding and new technology learning.</p>
+                <div class="social">
+                    <a href="https://instagram.com/sourav_chhimpa?igshid=MzRlODBiNWFlZA=="><img src="image/Instagram_logo_2016.svg.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/sourav-chhimpa-901a88254"><img src="image/LinkedIn_icon.svg.png" alt="LinkedIn"></a>
+                    <a href="https://wa.me/916367477611?text=👋%20Hello%20there!%20I%20need%20your%20help"><img src="image/whatsapp.png" alt="WhatsApp"></a>
+                    <a href="tel:+916367477611"><img src="image/calling.png" alt="Call"></a>
+                </div>
+            </div>
+            <div class="card">
+                <!-- Card content for member 2 -->
+                <img class="sourav" src="image/photo_2023-07-21_10-51-14.jpg" alt="Member 1">
+                <h2>Vishal Singh</h2>
+                <p>Computer Science (BCA)</p>
+                <p>Regular BCA</p>
+                <p>About Me: Passionate about Web Development.</p>
+                <div class="social">
+                    <a href="https://instagram.com/v._vishalghildiyan?igshid=NTc4MTIwNjQ2YQ=="><img src="image/Instagram_logo_2016.svg.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/vishal-singh-612b1b234"><img src="image/LinkedIn_icon.svg.png" alt="LinkedIn"></a>
+                    <a href="https://wa.me/919571413905?text=👋%20Hello%20there!%20I%20need%20your%20help"><img src="image/whatsapp.png" alt="WhatsApp"></a>
+                    <a href="tel:+919571413905"><img src="image/calling.png" alt="Call"></a>
+                </div>
+            </div>
+        </main>
+        <section class="about-developers">
+            <h2>About the Developers</h2>
+            <div class="developer">
+                <img src="image/logofor_web(pixelrise).png" alt="Developer 1">
+                <h3>Pixel Rise Studios</h3>
+                <p>Passionate about coding and technology.</p>
+                <div class="social">
+                    <a href="linkedin.com/johndoe"><img src="image/LinkedIn_icon.svg.png" alt="LinkedIn"></a>
+                    <a href="instagram.com/johndoe"><img src="image/Instagram_logo_2016.svg.png" alt="Instagram"></a>
+                    <a href="whatsapp.com/johndoe"><img src="image/whatsapp.png" alt="WhatsApp"></a>
+                    <a href="jakd" alt="website"><img src="image/PXIALRISE_WHATSAPP.png" alt="website"></a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>Design by <a href="your-sourav-profile-link">Sourav</a> | Powered by <a href="your-pixel-rise-studios-link">Pixel Rise Studios</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
